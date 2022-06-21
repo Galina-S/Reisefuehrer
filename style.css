@@ -1,0 +1,66 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+h1{
+    font-size: 6rem;
+    }
+
+#sightseeings {
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 3rem;
+}
+
+hr{
+    border-top: 3px solid rgb(255, 255, 255);
+}
+
+#footer {
+    color: black;
+    font-size: 1rem;
+}
+
+#home{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://ais-akamai.rtl.de/masters/1264645/1686x0/fruehling-in-den-niederlanden.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+
+
+    .animate-charcter
+    {
+       text-transform: uppercase;
+      background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+          font-size: 190px;
+    }
+    
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    }
+    
+    
